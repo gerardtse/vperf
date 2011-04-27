@@ -1,0 +1,10 @@
+C:\Projects\vPrefAgent\vPrefAgent\bin\Debug\vPrefAgent.exe
+C:\Projects\vPrefAgent\vPrefAgent\bin\Debug\vPrefAgent.pdb
+C:\Projects\vPrefAgent\vPrefAgent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\vPrefAgent\vPrefAgent\obj\x86\Debug\vPrefAgent.exe
+C:\Projects\vPrefAgent\vPrefAgent\obj\x86\Debug\vPrefAgent.pdb
+C:\Projects\obj\x86\Debug\vPrefAgent.exe
+C:\Projects\obj\x86\Debug\vPrefAgent.pdb
+C:\Projects\vPrefAgent\vPrefAgent\bin\Debug\vPref.Remoting.dll
+C:\Projects\vPrefAgent\vPrefAgent\bin\Debug\vPref.Remoting.pdb
+C:\Projects\vPrefAgent\vPrefAgent\bin\Debug\vPrefAgent.exe.config

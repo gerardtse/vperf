@@ -1,0 +1,11 @@
+C:\Projects\vPref\vPref\bin\Debug\vPref.exe
+C:\Projects\vPref\vPref\bin\Debug\vPref.pdb
+C:\Projects\vPref\vPref\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\vPref\vPref\obj\x86\Debug\vPref.exe
+C:\Projects\vPref\vPref\obj\x86\Debug\vPref.pdb
+C:\Projects\vPref\vPref\bin\Debug\vPref.Remoting.dll
+C:\Projects\vPref\vPref\bin\Debug\vPref.Remoting.pdb
+C:\Projects\vPref\vPref\bin\Debug\vPref.exe.config
+C:\Projects\vPref\vPref\obj\x86\Debug\vPref.Properties.Resources.resources
+C:\Projects\vPref\vPref\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Projects\vPref\vPref\obj\x86\Debug\GenerateResource.write.1.tlog

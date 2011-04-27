@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vPref", "vPref\vPref.csproj", "{73135A21-E1E5-4FA5-A131-92C800F0656D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vPrefAgent", "..\vPrefAgent\vPrefAgent\vPrefAgent.csproj", "{219AF396-290F-4B13-8415-8959A69EE651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vPref.Remoting", "vPref.Remoting\vPref.Remoting.csproj", "{B21174F3-95F6-46FC-8ABB-F5E83BEFBF5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73135A21-E1E5-4FA5-A131-92C800F0656D}.Debug|x86.ActiveCfg = Debug|x86
+		{73135A21-E1E5-4FA5-A131-92C800F0656D}.Debug|x86.Build.0 = Debug|x86
+		{73135A21-E1E5-4FA5-A131-92C800F0656D}.Release|x86.ActiveCfg = Release|x86
+		{73135A21-E1E5-4FA5-A131-92C800F0656D}.Release|x86.Build.0 = Release|x86
+		{219AF396-290F-4B13-8415-8959A69EE651}.Debug|x86.ActiveCfg = Debug|x86
+		{219AF396-290F-4B13-8415-8959A69EE651}.Debug|x86.Build.0 = Debug|x86
+		{219AF396-290F-4B13-8415-8959A69EE651}.Release|x86.ActiveCfg = Release|x86
+		{219AF396-290F-4B13-8415-8959A69EE651}.Release|x86.Build.0 = Release|x86
+		{B21174F3-95F6-46FC-8ABB-F5E83BEFBF5A}.Debug|x86.ActiveCfg = Debug|x86
+		{B21174F3-95F6-46FC-8ABB-F5E83BEFBF5A}.Debug|x86.Build.0 = Debug|x86
+		{B21174F3-95F6-46FC-8ABB-F5E83BEFBF5A}.Release|x86.ActiveCfg = Release|x86
+		{B21174F3-95F6-46FC-8ABB-F5E83BEFBF5A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

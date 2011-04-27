@@ -1,0 +1,5 @@
+C:\Projects\vPref\vPref.Remoting\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\vPref\vPref.Remoting\bin\Debug\vPref.Remoting.dll
+C:\Projects\vPref\vPref.Remoting\bin\Debug\vPref.Remoting.pdb
+C:\Projects\vPref\vPref.Remoting\obj\x86\Debug\vPref.Remoting.dll
+C:\Projects\vPref\vPref.Remoting\obj\x86\Debug\vPref.Remoting.pdb
