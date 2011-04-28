@@ -4,12 +4,27 @@ using System.Runtime.Remoting.Channels;
 using System.Runtime.Remoting.Channels.Tcp;
 using System.Security.Permissions;
 using vPref.Remoting;
+using System.Management;
+using IOStat;
+using System.Collections.Generic;
 
 public class vPrefAgent
 {
+    private static String uuid = null;
+
     [SecurityPermission(SecurityAction.Demand)]
     public static void Main(string[] args)
     {
+        // Generate unique system ID
+        ManagementClass mc = new ManagementClass("Win32_Processor");
+        ManagementObjectCollection moc = mc.GetInstances();
+        foreach (ManagementObject mo in moc)
+        {
+            uuid = mo.Properties["processorID"].Value.ToString();
+            Console.WriteLine("Unique ID for agent: " + uuid);
+            break;
+        }
+
         // Create the channel.
         TcpChannel clientChannel = new TcpChannel();
 
@@ -41,6 +56,12 @@ public class vPrefAgent
         // Invoke a method on the remote object.
         Console.WriteLine("The client is invoking the remote object.");
         Console.WriteLine("count is " + service.returnInterCount());
-     
+
+        while (true)
+        {
+            System.Threading.Thread.Sleep(2000);
+            Dictionary<String, String> dict = IOStatManager.getInstance.getDiskInformation();
+            service.reportIO(uuid, dict);
+        }
     }
 }

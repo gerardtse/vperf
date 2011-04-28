@@ -10,7 +10,7 @@ using System.Runtime.Remoting;
 using System.Runtime.Remoting.Channels;
 using System.Runtime.Remoting.Channels.Tcp;
 using vPref.Remoting;
-
+using IOStat;
 
 
 namespace vPref
@@ -41,6 +41,11 @@ namespace vPref
         public int returnInterCount()
         {
             return 100;
+        }
+
+        public void reportIO(String uuid, Dictionary<String, String> data)
+        {
+            IODatabase.getInstance.insertWithDictData(uuid, data);
         }
 
         #endregion

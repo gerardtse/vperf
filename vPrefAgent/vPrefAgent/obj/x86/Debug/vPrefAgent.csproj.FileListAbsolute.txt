@@ -8,3 +8,11 @@ C:\Projects\obj\x86\Debug\vPrefAgent.pdb
 C:\Projects\vPrefAgent\vPrefAgent\bin\Debug\vPref.Remoting.dll
 C:\Projects\vPrefAgent\vPrefAgent\bin\Debug\vPref.Remoting.pdb
 C:\Projects\vPrefAgent\vPrefAgent\bin\Debug\vPrefAgent.exe.config
+C:\Users\philip\Git\vperf\vPrefAgent\vPrefAgent\bin\Debug\vPrefAgent.exe.config
+C:\Users\philip\Git\vperf\vPrefAgent\vPrefAgent\obj\x86\Debug\vPrefAgent.exe
+C:\Users\philip\Git\vperf\vPrefAgent\vPrefAgent\obj\x86\Debug\vPrefAgent.pdb
+C:\Users\philip\Git\vperf\vPrefAgent\vPrefAgent\bin\Debug\vPrefAgent.exe
+C:\Users\philip\Git\vperf\vPrefAgent\vPrefAgent\bin\Debug\vPrefAgent.pdb
+C:\Users\philip\Git\vperf\vPrefAgent\vPrefAgent\bin\Debug\vPref.Remoting.dll
+C:\Users\philip\Git\vperf\vPrefAgent\vPrefAgent\bin\Debug\vPref.Remoting.pdb
+C:\Users\philip\Git\vperf\vPrefAgent\vPrefAgent\obj\x86\Debug\ResolveAssemblyReference.cache

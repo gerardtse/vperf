@@ -8,5 +8,6 @@ namespace vPref.Remoting
     public interface IVPrefServiceProvider
     {
         int returnInterCount();
+        void reportIO(String uuid, Dictionary<String, String> data);
     }
 }
